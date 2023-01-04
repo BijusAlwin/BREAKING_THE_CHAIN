@@ -119,8 +119,8 @@ background(0)
          you.addImage(youIMG)
        drawSprites()
     }
-textSize(35)
 drawSprites() 
+textSize(35)
 fill("yellow")
 if (score>=1001){
 text("GAME OVER. SCORE " + score,500,200)
