@@ -114,26 +114,22 @@ background(0)
     }
     else if (score>=2001 && player.y>=700 || player.y<=0 ){
         fill("yellow")
-        text(" I cant belive you got a pretty good score of "+ score,230,230) 
+        text("GG(YOU WIN).I cant belive you got a pretty good score of "+ score,230,230) 
          you=createSprite(700,500)
          you.addImage(youIMG)
        drawSprites()
     }
      
 drawSprites() 
-     textSize(35)
-     text("GAME OVER. SCORE " + score,500,200)
+    
 
-     textSize(35)
+textSize(35)
 fill("yellow")
-
-if (score>=1001){
-
-text("GG(YOU WIN) ",500,300)
+text("GAME OVER. SCORE " + score,500,200)
 you=createSprite(700,500)
 you.addImage(youIMG)
 drawSprites()
-}
+
  }
   
     
