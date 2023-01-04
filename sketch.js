@@ -99,11 +99,12 @@ if(player.y>=700 || player.y<=0){
  }
  else if(gameState===END){
 
-background(0)
+
    
     textSize(35)
     fill("yellow")
      text("GAME OVER. SCORE " + score,500,200)
+     background(0)
     sky.velocityX=0
     sky.destroy()
     obstacleGroup.setVelocityEach(0)
