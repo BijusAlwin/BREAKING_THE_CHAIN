@@ -123,11 +123,7 @@ if(player.y>=700 || player.y<=0){
          you.addImage(youIMG)
        drawSprites()
     }
-   textSize(35)
-fill("yellow")
- if(score<=2000 || obstacleGroup.isTouching(player){
-text("GAME OVER. SCORE " + score,500,200)  
- }
+ 
 
 
 
