@@ -101,15 +101,13 @@ if(player.y>=700 || player.y<=0){
 
 
    
-    textSize(35)
-    fill("yellow")
-     text("GAME OVER. SCORE " + score,500,200)
+
      background(0)
     sky.velocityX=0
     sky.destroy()
     obstacleGroup.setVelocityEach(0)
    player.destroy()
-    obstacleGroup.destroyEach()
+    //obstacleGroup.destroyEach()
   
     textSize(35)
     if(score<=2000 &&  player.y>=700 || player.y<=0 ){
@@ -126,7 +124,7 @@ if(player.y>=700 || player.y<=0){
  
 
 
-
+text("GAME OVER. SCORE " + score,500,200)
  }
   
     
