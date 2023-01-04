@@ -108,7 +108,7 @@ background(0)
     obstacleGroup.destroyEach()
   
     textSize(35)
-    if(score<=2000 ||  player.y>=700 || player.y<=0 ){
+    if(score<=2000 &&  player.y>=700 || player.y<=0 ){
         fill("yellow")
    text("You are so irresposible (you crashed). I cant belive you got a low score of "+score , 100,230)
     }
@@ -123,13 +123,9 @@ background(0)
 fill("yellow")
  if(score<=2000 || obstacleGroup.isTouching(player){
 text("GAME OVER. SCORE " + score,500,200)  
-drawSprites() 
-    
-
-
  }
 
-drawSprites()
+
 
  }
   
