@@ -122,6 +122,7 @@ background(0)
 drawSprites() 
 textSize(35)
 fill("yellow")
+     text("GAME OVER. SCORE " + score,500,200)
 if (score>=1001){
 text("GAME OVER. SCORE " + score,500,200)
 text("GG(YOU WIN) ",500,300)
