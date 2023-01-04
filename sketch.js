@@ -121,11 +121,14 @@ background(0)
     }
      
 drawSprites() 
-textSize(35)
+     textSize(35)
+     text("GAME OVER. SCORE " + score,500,200)
+
+     textSize(35)
 fill("yellow")
 
 if (score>=1001){
-text("GAME OVER. SCORE " + score,500,200)
+
 text("GG(YOU WIN) ",500,300)
 you=createSprite(700,500)
 you.addImage(youIMG)
