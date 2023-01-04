@@ -125,7 +125,7 @@ drawSprites()
 
 textSize(35)
 fill("yellow")
- if(score<=2000){
+ if(score<=2000 || obstacleGroup.isTouching(player){
 text("GAME OVER. SCORE " + score,500,200)
  }
 
